@@ -1,0 +1,12 @@
+{
+  "use": [
+    // "postcss-scss",
+    "autoprefixer",
+    "postcss-import"
+  ],
+  "local-plugins": true,
+  "watch": true,
+  "autoprefixer": {
+    "browsers": "> 5%"
+  }
+}

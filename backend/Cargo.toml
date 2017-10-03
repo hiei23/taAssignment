@@ -1,0 +1,22 @@
+[package]
+name = "backend"
+version = "0.1.0"
+authors = ["Alberto Leal <mailforalberto@gmail.com>"]
+
+[dependencies]
+futures = "0.1.11"
+pretty_env_logger = "0.1.0"
+chomp = "0.3.1"
+url = "1.1"
+horrorshow = "0.6.1"
+lazy_static = "0.2"
+conduit-mime-types = "0.7.3"
+serde = "0.9"
+serde_derive = "0.9"
+serde_json = "0.9"
+chrono = { version = "0.3", features = ["serde"] }
+mime = "0.2.2"
+
+[dependencies.hyper]
+git = "https://github.com/hyperium/hyper"
+rev = "5c1cfa2bce93a57db2f720cd04436a5f92e80634"
